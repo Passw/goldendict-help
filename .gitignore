@@ -10,3 +10,4 @@ Makefile.Release
 gdhelp.pro.user
 gdhelp.pro.user.*
 
+.qmake.stash

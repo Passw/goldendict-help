@@ -1,7 +1,7 @@
 TEMPLATE = aux
 
 GENERATOR = $$[QT_INSTALL_BINS]/qhelpgenerator
-QDOC = $$[QT_INSTALL_BINS]/qdoc3
+QDOC = $$[QT_INSTALL_BINS]/qdoc
 
 docs.depends = $$PWD/ru/gdhelp_ru.qdoc $$PWD/en/gdhelp_en.qdoc
 docs.commands = $$QDOC $$PWD/ru/gdhelp_ru.qdocconf $$PWD/en/gdhelp_en.qdocconf \
